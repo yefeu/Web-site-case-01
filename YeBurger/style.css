@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: url(images/yeburger.jpg);
+    height: 100vh;
+    background-size: 100% 100%
+}
+
+.menu-bar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.menu-bar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.menu-bar ul{
+    float: right;
+    margin-right: 17px;
+}
+.menu-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+    
+}
+.menu-bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 6px 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu-bar ul li a:active,
+.menu-bar ul li a:hover{
+    background: #ff6e00;
+    border-radius: 2px;
+}
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;transform: translate(-50%,-50%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    user-select: none;
+    color: white;
+}
+.center h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center  ;
+
+}
+html::-webkit-scrollbar{
+    width: 0.8rem;
+    background-color: white;
+}
+html::-webkit-scrollbar-track{
+    border-radius: 3rem;
+    background-color: var(--black-color);
+}
+.navbar ul li{
+    display: inline-block;
+    margin-right: 17px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding: 5px 11px;
+}
+img{
+    width: 100%;
+    border: 1px solid #bbb;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.con h1 {
+   position: absolute;
+   color: rgb(255, 246, 246);
+   padding-left: 550px;
+   padding-top: 150px;
+   font-size: 70px;
+   margin-top: 25%;
+}
+.con span{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 280%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 220px;
+    padding-left: 10%;
+    margin-bottom: 2000px;
+    margin-top: 30%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.sin img{
+    width: 100%;
+    
+}
+body{
+    background-color: #ff6e00;
+}
+.emo img{
+    
+    width: 200px;
+    height: 200px;
+    margin-left: 620px;
+    border-radius: 70%;
+}
+.emo h1{
+  text-align: center;
+  font-size: 200%;
+  background-color: bisque;
+  margin-left: 300px;
+  margin-right: 300px;
+  
+}
+.emo p{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding-left: 10%;
+   font-size: x-large;
+   color: whitesmoke;
+   text-align:center;
+   margin-left: 10px;
+   margin-right: 20px;
+}
+
+.mes {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mes img{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 15%;
+    flex-direction: row;
+}
+.mes h1{
+    text-align: center;    
+    float: right;
+    flex-direction: row;
+    background-color: bisque;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.sol p{
+    margin: auto;
+    float: left;
+    padding-left: 20%;
+}
+
+.mesImageWrapper{
+    flex:2;
+    display: flex;
+    justify-content: center;
+}
+
+.mesRight {
+    display:flex;
+    flex-direction:column;
+    flex:3;
+}
+
+.mesRight p {
+    margin-top:20px;
+    font-size: 23px;
+}
+.mes button{
+    width: 100%;
+}
+.sel{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sel img{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 10%;
+    flex-direction: row;   
+}
+.sel h1{
+    text-align: center;    
+    float: right;
+    flex-direction: row;
+    margin-top: 22%;
+    font-size: 2em;
+    background-color: bisque;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.lop p{
+    margin: auto;
+    float: left;
+    padding-left: 20%;
+    font-size: 23px;
+}
+.les{
+    display: flex;
+    justify-content: center;
+}
+.sek{
+    display:flex;
+    flex-direction:column;
+    flex:3;
+}
+.sek p{
+    margin-top: 30px;
+    font-size: 1em;
+    margin-left: 8%;
+    font-size: 23px;
+
+}
+.kef{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.kef img{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 9%;
+    flex-direction: row;   
+}
+.kef h1{
+    text-align: center;    
+    float: right;
+    flex-direction: row;
+    margin-top: 20%;
+    font-size: 2em;
+    background-color: bisque;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+.kop{
+    margin: auto;
+    float: left;
+    padding-left: 10%;
+}
+.kaf{
+    display: flex;
+    justify-content: center;
+}
+.lef{
+    display:flex;
+    flex-direction:column;
+    flex:2;
+}
+.lef p{
+    margin-top: 30px;
+    font-size: 23px;
+    margin-left: 1%;
+
+}
+.kef button{
+    margin-bottom: 10%;
+}
+.sel button{
+    margin-top: 4%;
+}
+.gol{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.log h1{
+    margin-left: 550px;
+    font-size: 2em;
+    margin-top: 50px;
+    background-color: bisque;
+    margin-right: 550px;
+}
+.log p{
+    margin-left: 375px;
+    margin-top: 13px;    
+    font-size: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ol h1{  
+    margin-left: 430px;
+    margin-top: 100px;
+    margin-right: 430px;
+    font-size: 30px;
+    background-color: bisque;
+    
+}
+.ol p{
+    font-size: 28px;
+    margin-left: 430px;
+}
+.ol button{
+    margin-left: 890px;
+    padding: 15px 30px;
+    
+}
+.mol h1{
+    margin-top: 99px;
+    margin-left: 600px;
+    margin-right: 600px;
+    background-color: blanchedalmond;
+}
+.mol p{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mol img{
+    margin-top: 90px;
+}
+.loc{
+    text-align: center;
+}
+.cop{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+}
+.cop img{
+    border-radius: 90%;
+    width: 3%;
+    height: 3%;
+}
+.poc img{
+    width: 30%;
+    float: right;
+    right: 0px;
+}
